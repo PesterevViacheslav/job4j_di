@@ -1,4 +1,5 @@
 package ru.job4j.di;
+import org.springframework.stereotype.Component;
 /**
  * Class StartUI - Запуск приложения.
  * Решение задач уровня Middle. Блок 3.5. Spring.
@@ -7,6 +8,7 @@ package ru.job4j.di;
  * @since 18.07.2023
  * @version 1
  */
+@Component
 public class StartUI {
 
     private Store store;

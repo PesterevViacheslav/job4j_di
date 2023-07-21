@@ -1,4 +1,5 @@
 package ru.job4j.di;
+import org.springframework.stereotype.Component;
 import java.util.Scanner;
 /**
  * Class ConsoleInput - Ввод из консоли.
@@ -8,6 +9,7 @@ import java.util.Scanner;
  * @since 18.07.2023
  * @version 1
  */
+@Component
 public class ConsoleInput {
     private Scanner scanner = new Scanner(System.in);
 
