@@ -1,5 +1,6 @@
 package ru.job4j.di;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 /**
  * Class StartUI - Запуск приложения.
@@ -10,6 +11,7 @@ import org.springframework.stereotype.Component;
  * @version 1
  */
 @Component
+@Scope("prototype")
 public class StartUI {
     @Autowired
     private Store store;
